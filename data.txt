@@ -1,0 +1,28 @@
+								<tr><th align="center">User ID</th>
+									<th align="center">Order ID</th>
+									<th align="center">Item Name</th>
+									<th align="center">Order Status</th></tr>	
+								<tr><td align="center">B415002</td>
+									<td align="center">1</td>
+									<td align="center">PBM</td>
+									<td align="center"><input type = "button" value = "Ready"/> &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="button" value="Cancel">
+									</td></tr>	
+								<tr><td align="center">B415016</td>
+									<td align="center">2</td>
+									<td align="center">CP</td>
+									<td align="center"><input type = "button" value = "Ready"/> &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="button" value="Cancel">
+									</td></tr>
+								<tr><td align="center">B415050</td>
+									<td align="center">3</td>
+									<td align="center">CBM</td>
+									<td align="center"><input type = "button" value = "Ready"/> &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="button" value="Cancel">
+									</td></tr>
+								<tr><td align="center">B415048</td>
+									<td align="center">4</td>
+									<td align="center">CC</td>
+									<td align="center"><input type = "button" value = "Ready"/> &nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="button" value="Cancel">
+									</td></tr>

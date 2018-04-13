@@ -1,0 +1,53 @@
+
+	function addmoney()
+	{
+		var money=document.getElementById("money").value;
+		money=money+<?php echo "$acc_balance"; ?>;
+		window.location="addmoney.php?money="+money+"&user_id="+<?php echo "$user_id"; ?>+"";
+	}
+
+	function clearaccount()
+	{
+		window.location="clearaccount.php?user_id="+<?php echo "$user_id"; ?>+"";
+	}
+
+
+
+
+
+	SELECT
+    item_code,
+    count(item_code) AS 'item_code frequency'
+FROM
+    order_table
+    where date=CURDATE()
+
+GROUP BY
+    item_code
+ORDER BY
+    'item_code frequency' 
+
+
+
+create table order_table2(
+	user_id varchar(10) not null,
+	date date not null,
+	order_id int not null,
+	item_code varchar(10) not null,
+	status varchar(10) not null,
+	primary key(date,order_id)
+)
+
+
+
+	SELECT
+    item_code,
+    count(item_code) AS 'item_code_frequency'
+FROM
+    order_table
+    where date BETWEEN '2017-11-10' and '2017-11-10'
+
+GROUP BY
+    item_code
+ORDER BY
+    item_code_frequency
